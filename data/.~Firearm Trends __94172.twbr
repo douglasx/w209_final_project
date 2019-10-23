@@ -1,0 +1,699 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0718.1543                               -->
+<workbook source-build='2019.2.2 (20192.19.0718.1543)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (Federal Firearms Registered License by State (2019))' inline='true' name='federated.0shqs2p0ur04z61h8gh2i15jbhu0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Federal Firearms Registered License by State (2019)' name='excel-direct.0tvdmnw0bcc8el1aqmb251ysntv4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/data/Federal Firearms Registered License by State (2019).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0tvdmnw0bcc8el1aqmb251ysntv4' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:H53:no:A1:H53:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='Any Other Weapon1' ordinal='1' />
+            <column datatype='integer' name='Destructive Device2' ordinal='2' />
+            <column datatype='integer' name='Machinegun3' ordinal='3' />
+            <column datatype='integer' name='Silencer4' ordinal='4' />
+            <column datatype='integer' name='Short Barreled Rifle5' ordinal='5' />
+            <column datatype='integer' name='Short Barreled Shotgun6' ordinal='6' />
+            <column datatype='integer' name='Total' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Any Other Weapon1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Any Other Weapon1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Any Other Weapon1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Destructive Device2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Destructive Device2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Destructive Device2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Machinegun3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Machinegun3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Machinegun3</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Silencer4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Silencer4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Silencer4</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Barreled Rifle5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Barreled Rifle5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Short Barreled Rifle5</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short Barreled Shotgun6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Short Barreled Shotgun6]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Short Barreled Shotgun6</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H53:no:A1:H53:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.368567' measure-ordering='alphabetic' measure-percentage='0.631433' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Sheet1+ (Multiple Connections)' inline='true' name='federated.07f0xh21t8ap5a1256w840vcgjxz' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Firearms Import 1990-2016' name='excel-direct.0812ulg19w38lt19wus1c0pzuygo'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/data/Firearms Import 1990-2016.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='Firearms Export 1990 - 2016' name='excel-direct.1g65var0kdimp7110o7280gy3k66'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/data/Firearms Export 1990 - 2016.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='Firearms Manufactured 1990-2016' name='excel-direct.18ta91x1720nk912jhcgg07oqb28'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/Users/rayxiao/GitHub/berkeley/W209/w209_final_project/data/Firearms Manufactured 1990-2016.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[Imports].[Calendar Year]' />
+              <expression op='[Firearms Manufactured 1990-2016].[Calendar Year]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[Imports].[Calendar Year]' />
+                <expression op='[Firearms Export 1990 - 2016].[Calendar Year]' />
+              </expression>
+            </clause>
+            <relation connection='excel-direct.0812ulg19w38lt19wus1c0pzuygo' name='Imports' table='[Sheet1$]' type='table'>
+              <columns gridOrigin='A1:E28:no:A1:E28:0' header='yes' outcome='6'>
+                <column datatype='integer' name='Calendar Year' ordinal='0' />
+                <column datatype='integer' name='Shotguns' ordinal='1' />
+                <column datatype='integer' name='Rifles' ordinal='2' />
+                <column datatype='integer' name='Handguns' ordinal='3' />
+                <column datatype='integer' name='Total' ordinal='4' />
+              </columns>
+            </relation>
+            <relation connection='excel-direct.1g65var0kdimp7110o7280gy3k66' name='Firearms Export 1990 - 2016' table='[&apos;Firearms Export 1990 - 2016$&apos;]' type='table'>
+              <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='2'>
+                <column datatype='integer' name='Calendar Year' ordinal='0' />
+                <column datatype='integer' name='Pistols' ordinal='1' />
+                <column datatype='integer' name='Revolvers' ordinal='2' />
+                <column datatype='integer' name='Rifles' ordinal='3' />
+                <column datatype='integer' name='Shotguns' ordinal='4' />
+                <column datatype='integer' name='Misc.Firearms' ordinal='5' />
+                <column datatype='integer' name='Total Firearms' ordinal='6' />
+              </columns>
+            </relation>
+          </relation>
+          <relation connection='excel-direct.18ta91x1720nk912jhcgg07oqb28' name='Firearms Manufactured 1990-2016' table='[&apos;Firearms Manufactured 1990-2016$&apos;]' type='table'>
+            <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
+              <column datatype='integer' name='Calendar Year' ordinal='0' />
+              <column datatype='integer' name='Pistols' ordinal='1' />
+              <column datatype='integer' name='Revolvers' ordinal='2' />
+              <column datatype='integer' name='Rifles' ordinal='3' />
+              <column datatype='integer' name='Shotguns' ordinal='4' />
+              <column datatype='integer' name='Misc. Firearms' ordinal='5' />
+              <column datatype='integer' name='Total Firearms' ordinal='6' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[Calendar Year (Firearms Export 1990 - 2016)]' value='[Firearms Export 1990 - 2016].[Calendar Year]' />
+          <map key='[Calendar Year (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Calendar Year]' />
+          <map key='[Calendar Year]' value='[Imports].[Calendar Year]' />
+          <map key='[Handguns]' value='[Imports].[Handguns]' />
+          <map key='[Misc. Firearms]' value='[Firearms Manufactured 1990-2016].[Misc. Firearms]' />
+          <map key='[Misc.Firearms]' value='[Firearms Export 1990 - 2016].[Misc.Firearms]' />
+          <map key='[Pistols (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Pistols]' />
+          <map key='[Pistols]' value='[Firearms Export 1990 - 2016].[Pistols]' />
+          <map key='[Revolvers (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Revolvers]' />
+          <map key='[Revolvers]' value='[Firearms Export 1990 - 2016].[Revolvers]' />
+          <map key='[Rifles (Firearms Export 1990 - 2016)]' value='[Firearms Export 1990 - 2016].[Rifles]' />
+          <map key='[Rifles (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Rifles]' />
+          <map key='[Rifles]' value='[Imports].[Rifles]' />
+          <map key='[Shotguns (Firearms Export 1990 - 2016)]' value='[Firearms Export 1990 - 2016].[Shotguns]' />
+          <map key='[Shotguns (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Shotguns]' />
+          <map key='[Shotguns]' value='[Imports].[Shotguns]' />
+          <map key='[Total Firearms (Firearms Manufactured 1990-2016)]' value='[Firearms Manufactured 1990-2016].[Total Firearms]' />
+          <map key='[Total Firearms]' value='[Firearms Export 1990 - 2016].[Total Firearms]' />
+          <map key='[Total]' value='[Imports].[Total]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Calendar Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calendar Year]</local-name>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias>Calendar Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shotguns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shotguns]</local-name>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias>Shotguns</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rifles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rifles]</local-name>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias>Rifles</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Handguns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Handguns]</local-name>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias>Handguns</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Imports]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E28:no:A1:E28:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calendar Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calendar Year (Firearms Export 1990 - 2016)]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Calendar Year</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pistols</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pistols]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Pistols</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revolvers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revolvers]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Revolvers</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rifles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rifles (Firearms Export 1990 - 2016)]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Rifles</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shotguns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shotguns (Firearms Export 1990 - 2016)]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Shotguns</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Misc.Firearms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Misc.Firearms]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Misc.Firearms</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Firearms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Firearms]</local-name>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias>Total Firearms</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Firearms Export 1990 - 2016]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G28:no:A1:G28:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Calendar Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Calendar Year (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Calendar Year</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pistols</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pistols (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Pistols</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revolvers</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Revolvers (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Revolvers</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rifles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rifles (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Rifles</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shotguns</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shotguns (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Shotguns</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Misc. Firearms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Misc. Firearms]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Misc. Firearms</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Firearms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Firearms (Firearms Manufactured 1990-2016)]</local-name>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias>Total Firearms</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Firearms Manufactured 1990-2016]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G28:no:A1:G28:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Calendar Year (Firearms Export 1990 - 2016)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Calendar Year (Firearms Manufactured 1990-2016)]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Calendar Year]' role='dimension' type='ordinal' />
+      <column caption='Handguns Import' datatype='integer' name='[Handguns]' role='measure' type='quantitative' />
+      <column caption='Misc. Firearms Manufactured' datatype='integer' name='[Misc. Firearms]' role='measure' type='quantitative' />
+      <column caption='Misc.Firearms Export' datatype='integer' name='[Misc.Firearms]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Pistols Manufactured' datatype='integer' name='[Pistols (Firearms Manufactured 1990-2016)]' role='measure' type='quantitative' />
+      <column caption='Pistols Export' datatype='integer' name='[Pistols]' role='measure' type='quantitative' />
+      <column caption='Revolvers Manufactured' datatype='integer' name='[Revolvers (Firearms Manufactured 1990-2016)]' role='measure' type='quantitative' />
+      <column caption='Revolvers Export' datatype='integer' name='[Revolvers]' role='measure' type='quantitative' />
+      <column caption='Rifles Export' datatype='integer' name='[Rifles (Firearms Export 1990 - 2016)]' role='measure' type='quantitative' />
+      <column caption='Rifles Manufactured' datatype='integer' name='[Rifles (Firearms Manufactured 1990-2016)]' role='measure' type='quantitative' />
+      <column caption='Rifles Import' datatype='integer' name='[Rifles]' role='measure' type='quantitative' />
+      <column caption='Shotguns Export' datatype='integer' name='[Shotguns (Firearms Export 1990 - 2016)]' role='measure' type='quantitative' />
+      <column caption='Shotguns Manufactured' datatype='integer' name='[Shotguns (Firearms Manufactured 1990-2016)]' role='measure' type='quantitative' />
+      <column caption='Shotguns Import' datatype='integer' name='[Shotguns]' role='measure' type='quantitative' />
+      <column caption='Total Firearms Manufactured' datatype='integer' name='[Total Firearms (Firearms Manufactured 1990-2016)]' role='measure' type='quantitative' />
+      <column caption='Total Firearms Export' datatype='integer' name='[Total Firearms]' role='measure' type='quantitative' />
+      <column caption='Total Import' datatype='integer' name='[Total]' role='measure' type='quantitative' />
+      <column-instance column='[Handguns]' derivation='Sum' name='[sum:Handguns:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Misc. Firearms]' derivation='Sum' name='[sum:Misc. Firearms:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Misc.Firearms]' derivation='Sum' name='[sum:Misc.Firearms:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pistols (Firearms Manufactured 1990-2016)]' derivation='Sum' name='[sum:Pistols (Firearms Manufactured 1990-2016):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Pistols]' derivation='Sum' name='[sum:Pistols:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.299026' measure-ordering='alphabetic' measure-percentage='0.700974' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Pistols:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Misc.Firearms:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Misc. Firearms:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Handguns:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Pistols (Firearms Manufactured 1990-2016):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1+ (Multiple Connections)' name='federated.07f0xh21t8ap5a1256w840vcgjxz' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07f0xh21t8ap5a1256w840vcgjxz'>
+            <column caption='Handguns Import' datatype='integer' name='[Handguns]' role='measure' type='quantitative' />
+            <column caption='Misc. Firearms Manufactured' datatype='integer' name='[Misc. Firearms]' role='measure' type='quantitative' />
+            <column caption='Misc.Firearms Export' datatype='integer' name='[Misc.Firearms]' role='measure' type='quantitative' />
+            <column-instance column='[Handguns]' derivation='Sum' name='[sum:Handguns:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Misc. Firearms]' derivation='Sum' name='[sum:Misc. Firearms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Misc.Firearms]' derivation='Sum' name='[sum:Misc.Firearms:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07f0xh21t8ap5a1256w840vcgjxz].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Handguns:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Misc. Firearms:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07f0xh21t8ap5a1256w840vcgjxz].[sum:Misc.Firearms:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.07f0xh21t8ap5a1256w840vcgjxz].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07f0xh21t8ap5a1256w840vcgjxz].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.07f0xh21t8ap5a1256w840vcgjxz].[Multiple Values]</rows>
+        <cols>[federated.07f0xh21t8ap5a1256w840vcgjxz].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{A7FC19D5-34BC-482B-9372-0FBAA9B17645}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07f0xh21t8ap5a1256w840vcgjxz].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44E7F1B3-393C-44CD-AACA-8918E0D3E1C5}' />
+    </window>
+  </windows>
+</workbook>
