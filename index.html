@@ -9,78 +9,226 @@
 
     <title >w209 Final Project1 - Mass Shooting Visualizations</title>
 
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-
-    <!-- Custom fonts for this template -->
-    <!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"> -->
-
-    <!-- Plugin CSS -->
-    <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="css/template.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
 
+    <style> 
+      h2 {
+          margin-top:-60px;
+          padding-top:60px;
+       }
+     </style>
+
   </head>
 
 
   <body>
-    <header class="bg-dark text-white text-center">
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #1E90FF;">
+        <style>
+
+        .navbar-brand
+        {
+          /*font-family: 'Lato', sans-serif;*/
+          color:blue;
+          font-size: 30px;
+          margin: 10px;
+        }
+        </style>
+        <a class="navbar-brand text-white font-weight-bold" href="#">W209 Final Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:#FFFFFF;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Background <span class="sr-only">(current)</span></a>
+            </li>
+
+
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:white;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Ethnicity <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:white;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Weapons <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:white;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Others <span class="sr-only">(current)</span></a>
+            </li>
+           </ul>
+
+
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:#FFFFFF;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Contacts <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:#FFFFFF;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white" href="#">Links <span class="sr-only">(current)</span></a>
+            </li>
+
+        </div>
+    </nav>
+
+    <header class="bg-secondary text-white text-center">
       <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <h2 class="hjustify text-center">Mass Shooting - What are the Facts</h2>
+
         <br>
         <div class="text-center">
           <img class="rounded" width="300" height="300" alt="" src="img/cover_pic.png">
         </div>
         <div class="row">
           <p class="hjustify pstyle">
-            Modern Mass Shootings are happening every year and becoming more prevalent in the news every year. News sources tend to bias and scare people into thinking things are happening more often. Our purpose is to let you decide your own opinion and see unbiased facts/comparisons. 
             <br>
-            Mass shootings are typically shown in the news with extra bias to where there are articles on “Are more mass shootings committed by white males?” The purpose of this is to make you come to conclusions by yourself, though we will offer our insights as to why certain issues are more complicated.
+            Modern Mass Shootings are happening every year and have increasing prevalence in the news. Due to coverage on only portions of the facts, news sources tend to bias and scare people into thinking mass shootings are happening more often in the recent years. Also, some biases are designed to target certain demographic group to where there are articles on “Are more mass shootings committed by white males?”Is this the fact? <br></p>
+
+            <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Our purpose: </p>
+
+            <p class="hjustify pstyle"> Create a interactive visualization to let you decide your own opinion and see unbiased facts/comparisons, though we will offer our insights as to why certain issues are more complicated.</p>
             <br>
+            <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Our Approach:<br> </p>
+            
             <br>
-            1. Modify Mass shooting definition
-            <br>
+            <p class="hjustify pstyle">1. Modify Mass shooting definition <br><br>
+
             Mass shootings are defined by the FBI as "mass murder" as "four or more murdered during an event with no "cooling-off period" between the murders." However, this encapsulates a lot of other events that are not reported on in the media, so we’ve decided to provide visualizations which will allow you to enter your own definition of a mass murder.
+            
             <br>
             <br>
             2. Remove Mass shooting related biases
-            <br>
+            <br><br>
             By defining your own way of looking at the mass shooting data, we are trying to remove the biases that news media usually have on mass shooting, the potential causes, and the potential fix to reduce the number of incidents.
           </p>
-          <p class="hjustify pstyle">
-            Our goal is to enable users to efficiently discover, compare and explore educational opportunities for women around the
-            world and aid in the iterative cycle of data exploration, hypotheses generation, testing and insights that ultimately lead to
-            policies that eliminate the education gender gap.
-          </p>
-          <br>
-          <br>
-          <!-- Viz 1 -->
-          <p class="hjustify pstyle">Below you will see a visualization that covers the following information <br>
-
-          1. A stacked barchart showing all the shooting events from 1990 to 2016, with different color representing the race of the shooter. <br>
-          2. Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race. <br>
-          3. A scatter plot showing the role different gun types played in mass shooting. <br>
-          4. A barchart showing the age distribution. <br>
-          5. A bar chart showing the frequency of events during each day of a week. </p>
-
-
-          
         </div>
-        <div class='tableauPlaceholder' id='viz1572486925372' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver2&#47;dash_viz1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='finalProject_viz1_ver2&#47;dash_viz1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver2&#47;dash_viz1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                
-        <script type='text/javascript'>                    var divElement = document.getElementById('viz1572486925372');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1477px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
+      </header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 
+      <header class="bg-white text-dark text-center">
+        <div class="container">
+          <h2 class="hjustify text-center">Ethnicity and other facts</h2>
+          <div class="row">
+            <p class="hjustify pstyle">
+              Below you will see a visualization that covers the following information <br>
 
+              1. A stacked barchart showing all the shooting events from 1990 to 2016, with different color representing the race of the shooter. <br>
+              2. Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race. <br>
+              3. A scatter plot showing the role different gun types played in mass shooting. <br>
+              4. A barchart showing the age distribution. <br>
+              5. A bar chart showing the frequency of events during each day of a week. </p>
+                              
+        <br>
+        <br>
+      <!-- Viz 1 -->
+        </div>
+        <div class='tableauPlaceholder' id='viz1573215221503' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3&#47;dash_viz12&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='finalProject_viz1_ver3&#47;dash_viz12' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3&#47;dash_viz12&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1573215221503');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1027px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+      </div>
+    </header>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+      <header class="bg-secondary text-white text-center">
+        <div class="container">
+          <h2 class="hjustify text-center">Distributions and Firearms</h2>
+          <div class="row">
+            <p class="hjustify pstyle">
 
         <!-- Viz 2 -->
-        <p class="hjustify pstyle"><br>Below you will see a visualization that shows you the number of mass shootings each year and you can enter your own number to see how this affects the visualization. The minimum starting number is 4, but you can go all the way up to 102.</p>
+        Below you will see a visualization that shows you a map of the US with a darker saturation showing how deadly the shootings were by state. You can modify the definition of a mass shooting by entering it in the box below Total Number of Victims. The minimum starting number is 3, but you can go all the way up to 102. You can see which years were the most deadly and filter to see exclusively for that year of data.</p>
+
+        <div class='tableauPlaceholder' id='viz1572502193697' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZM&#47;ZMH6MZM7H&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;ZMH6MZM7H' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZM&#47;ZMH6MZM7H&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1572502193697');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1377px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1377px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
     </header>
-  
+
+
+
+
     <!-- page content -->
     <!-- Bootstrap core JavaScript -->
     <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
