@@ -14,7 +14,7 @@
 
     <link href="css/style.css" rel="stylesheet">
 
-    <style>
+    <style> 
       h2 {
           margin-top:-60px;
           padding-top:60px;
@@ -54,7 +54,7 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Background <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#background">Background <span class="sr-only">(current)</span></a>
             </li>
 
 
@@ -68,7 +68,7 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Ethnicity <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#ethnicity">Ethnicity <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item active">
@@ -81,7 +81,7 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Weapons <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#firearms">Firearms <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item active">
@@ -94,7 +94,7 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Others <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#others">Others <span class="sr-only">(current)</span></a>
             </li>
            </ul>
 
@@ -110,7 +110,7 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Contacts <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#contacts">Contacts <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item active">
@@ -123,13 +123,13 @@
                   margin: 0px;
                 }
                 </style>
-              <a class="nav-link text-white" href="#">Links <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white js-scroll-trigger" href="#links">Links <span class="sr-only">(current)</span></a>
             </li>
 
         </div>
     </nav>
 
-    <header class="bg-secondary text-white text-center">
+    <header class="bg-secondary text-white text-center" id="background">
       <div class="container">
         <br>
         <br>
@@ -140,7 +140,7 @@
         <br>
         <br>
 
-        <h2 class="hjustify text-center">Mass Shooting - What are the Facts?</h2>
+        <h2 class="hjustify text-center">Mass Shooting - What are the Facts</h2>
 
         <br>
         <div class="text-center">
@@ -149,89 +149,133 @@
         <div class="row">
           <p class="hjustify pstyle">
             <br>
-            Modern Mass Shootings are happening every year and have increasing coverage year over year. Due to how often it's been happening as of late, news sources tend to bias and scare people into thinking mass shootings are happening more often in the recent years. There are also some biases targeting certain demographics whenever these shootings occur such as white vs muslim extremism. But, is the media skewing the facts? What is the truth? <br></p>
+            Modern Mass Shootings are happening every year and have increasing prevalence in the news. Due to coverage on only portions of the facts, news sources tend to bias and scare people into thinking mass shootings are happening more often in the recent years. Also, some biases are designed to target certain demographic group to where there are articles on “Are more mass shootings committed by white males?”Is this the fact? <br></p>
 
             <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Our purpose: </p>
 
-            <p class="hjustify pstyle"> Create an interactive visualization to let you answer any questions you have and see the unbiased data for yourself. </p>
+            <p class="hjustify pstyle"> Create a interactive visualization to let you decide your own opinion and see unbiased facts/comparisons, though we will offer our insights as to why certain issues are more complicated.</p>
             <br>
             <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Our Approach:<br> </p>
-
+            
             <br>
             <p class="hjustify pstyle">1. Modify Mass shooting definition <br><br>
 
-            Mass shootings are defined by the FBI as "mass murder" as "four or more murdered during an event with no "cooling-off period" between the murders." However, this encapsulates a lot of other events that are not reported by the media, so we’ve decided to provide visualizations which will allow you to enter your own definition of a mass murder incident. Our dataset allows you to start from 3.
-
+            Mass shootings are defined by the FBI as "mass murder" as "four or more murdered during an event with no "cooling-off period" between the murders." However, this encapsulates a lot of other events that are not reported on in the media, so we’ve decided to provide visualizations which will allow you to enter your own definition of a mass murder.
+            
             <br>
             <br>
             2. Remove Mass shooting related biases
             <br><br>
-            By defining your own way of looking at the mass shooting data, we are trying to remove the biases that news media usually have on mass shooting, the potential causes, and the potential fix to reduce the number of incidents. However, we will also provide our own impartial insights to prevent any bias from forming within your minds.
+            By defining your own way of looking at the mass shooting data, we are trying to remove the biases that news media usually have on mass shooting, the potential causes, and the potential fix to reduce the number of incidents.
           </p>
+          <br>
+          <br>
+          <br>
+
         </div>
       </header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-      <header class="bg-white text-dark text-center">
+
+
+
+      <header class="bg-white text-dark text-center" id="ethnicity">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="container">
           <h2 class="hjustify text-center">Ethnicity and other facts</h2>
           <div class="row">
             <p class="hjustify pstyle">
-              Below you will see a visualization that covers the following information <br>
+              <b>Overview:</b> <br>
 
-              1. A stacked barchart showing all the shooting events from 1990 to 2016, with different color representing the race of the shooter. <br>
-              2. Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race. <br>
-              3. A scatter plot showing the role different gun types played in mass shooting. <br>
-              4. A barchart showing the age distribution. <br>
-              5. A bar chart showing the frequency of events during each day of a week. </p>
+              Below you will see a visualization that covers the following information: <br>
 
+              
+              <ul class="hjustify pstyle">
+                <li>
+                  A map of the US showing the locations of all the reported mass shooting events between 1990 to 2016. <br><br>
+                </li>
+                <li>
+                  Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race.<br><br>
+                </li>
+                <li>
+                  A scatter plot showing the role different gun types played in mass shooting.<br><br>
+                </li>
+                <li>
+                  A barchart showing the age distribution. <br><br>
+                </li>
+                <li>
+                  A bar chart showing the frequency of events during each day of a week. <br><br>
+                </li>
+              </ul>
+            </p>
+
+            <br>
+            <br>
+
+          <p class="hjustify pstyle">
+            <b>Insights:</b> <br>
+
+              
+              <ul class="hjustify pstyle">
+                <li>
+                  Mass shootings where the shooter is African Americans are scattered more towards the East and South of the country. <br><br>
+                </li>
+                <li>
+                  There have been some US States where no mass shoooting was reported between 1990-2016. <br><br>
+                </li>
+                <li>
+                  The age groups 33-42 and 21-32 are the two dominant age groups of the shooter. However, additional data on the US age distribution is needed before concluding whether people of the age group have higher risk of causing mass shooting. <br> Moreover, the age group with the highest number of reported mass shootings are slightly different across races.  <br><br> <p class="font-weight-bold font-italic">Lead 1: </p> <p class="font-italic">This could be reflecting the difference in the level of economic burden and responsibility that different cultures impose to people of different age groups. A correlation between the culture and likelihood of mass shooting is proposed, and potential social intervention can be applied to reduce the likelihood of mass shooting.<br><br></p>
+                </li>
+                <li>
+                  Wednesday is the day with the highest number of reported mass shootings, while Saturday with the least. <br><br>
+                </li>
+                <li>
+                  A bar chart showing the frequency of events during each day of a week. <br><br>
+                </li>
+              </ul>
+            </p>
+                              
         <br>
         <br>
       <!-- Viz 1 -->
         </div>
-        <div class='tableauPlaceholder' id='viz1573215221503' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3&#47;dash_viz12&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='finalProject_viz1_ver3&#47;dash_viz12' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3&#47;dash_viz12&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1573215221503');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1027px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div class='tableauPlaceholder' id='viz1573648937001' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3_new&#47;dash_viz1_ver2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='finalProject_viz1_ver3_new&#47;dash_viz1_ver2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;finalProject_viz1_ver3_new&#47;dash_viz1_ver2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1573648937001');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
       </div>
     </header>
 <br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-      <header class="bg-secondary text-white text-center">
+      <header class="bg-secondary text-white text-center" id="firearms">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="container">
           <h2 class="hjustify text-center">Distributions and Firearms</h2>
           <div class="row">
             <p class="hjustify pstyle">
 
         <!-- Viz 2 -->
-        Below you will see a visualization that shows you a map of the US with a darker saturation showing how deadly the shootings were by state.
+        Below you will see a visualization that shows you a map of the US with a darker saturation showing how deadly the shootings were by state. You can modify the definition of a mass shooting by entering it in the box below Total Number of Victims. The minimum starting number is 3, but you can go all the way up to 102. You can see which years were the most deadly and filter to see exclusively for that year of data.</p>
 
-        1. You can modify the definition of a mass shooting by entering it in the slider below Total Number of Victims. The minimum starting number is 3, but you can go all the way up to 102.
-
-        2. You can see which years were the most deadly and filter to see exclusively for that year of data.
-
-        3. There is also a chart displaying the increase in gun imports, manufacturing, and exports. You'll see that exports are relatively non-existant while manufacturing and imports have increased since the 90's.
-
-      </p>
-
-        <div class='tableauPlaceholder' id='viz1573628885017' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZM&#47;ZMH6MZM7H&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;FirearmTrends&#47;Dashboard2?:embed=y&amp;:toolbar=yes&amp;:embed_code_version=3&amp;:loadOrderID=1&amp;:display_count=yes&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZM&#47;ZMH6MZM7H&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1573628885017');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       </div>
+
+        <div class='tableauPlaceholder' id='viz1573733206062' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FirearmTrendsviz2&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FirearmTrendsviz2&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FirearmTrendsviz2&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1573733206062');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1127px';} else { vizElement.style.width='100%';vizElement.style.height='1377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        </div>
     </header>
 
 
