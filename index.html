@@ -57,6 +57,19 @@
               <a class="nav-link text-white js-scroll-trigger" href="#background">Background <span class="sr-only">(current)</span></a>
             </li>
 
+            <li class="nav-item active">
+              <style>
+                .nav-link
+                {
+                  /*font-family: 'Lato', sans-serif;*/
+                  color:white;
+                  font-size: 20px;
+                  margin: 0px;
+                }
+                </style>
+              <a class="nav-link text-white js-scroll-trigger" href="#data-user-task">Details <span class="sr-only">(current)</span></a>
+            </li>
+
 
             <li class="nav-item active">
               <style>
@@ -175,10 +188,65 @@
         </div>
       </header>
 
+      <header class="bg-white text-dark text-center" id="data-user-task">
+      <div class="container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+
+            <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Data: </p>
+              <ul class="hjustify pstyle">
+                <li>
+                  Stanford MSA Database, which contains all the reported mass shooting events between 1960 and 2016. The database contains detailed description of the different aspects of the mass shooting events including: number of victims, shooter's description, weapon descriptions, etc. 
+                </li>
+                <li>
+                  US demographic data including the ethnicity distribution in the US from 1990 to 2016.
+                </li>
+                <li>
+                  The firearms manufactured, imported and exported in the US from 1990 to 2016.
+                </li>
+               
+              </ul>
+            
+            <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Users:<br> </p>
+            
+            <br>
+            <ul class="hjustify pstyle">
+                <li>
+                  <b>Gun control policy makers: </b>The tool can be used by US gun control policy makers to look at the different aspects besides directly limiting the ownership and the sales of guns. 
+                </li>
+                <li>
+                  <b>Gun control promoters and activists: </b>Promoters and activists, including NGOs, can direct their focus on specific aspects of gun violence, and potentially offer viable solutions based on the insights from this tool.
+                </li>
+                
+              </ul>
+            
+
+          <p class="hjustify pstyle font-weight-bold text-uppercase text-info">Tasks:<br> </p>
+            
+            <br>
+            <p class="hjustify pstyle">1. Present the overview of mass shooting violence in the US, including changing the definition of mass shooting by changing the minimum number of victims. <br>
+            <br>
+            2. Focus on the ethnicity distribution in the US population and the race of the shooter.<br>
+            <br>
+            3. Focus on the firearms and weapon types.<br>
+          </p>
+          <br>
+          <br>
+          <br>
+
+        </div>
+      </header>
 
 
-
-      <header class="bg-white text-dark text-center" id="ethnicity">
+      <header class="bg-secondary text-white text-center" id="ethnicity">
         <br>
         <br>
         <br>
@@ -192,55 +260,57 @@
           <h2 class="hjustify text-center">Ethnicity and other facts</h2>
           <div class="row">
             <p class="hjustify pstyle">
-              <b>Overview:</b> <br>
-
-              Below you will see a visualization that covers the following information: <br>
+              <b>Overview:</b>
+              Below you will see a visualization that covers the following information:
+              <ul class="hjustify pstyle">
+                <li>
+                  A map of the US showing the locations of all the reported mass shooting events between 1990 to 2016. 
+                </li>
+                <li>
+                  Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race.
+                </li>
+                <li>
+                  A scatter plot showing the role different gun types played in mass shooting.
+                </li>
+                <li>
+                  A barchart showing the age distribution. 
+                </li>
+                <li>
+                  A bar chart showing the frequency of events during each day of a week. 
+                </li>
+              </ul>
+              <br>
+            </p>
+          
+          
+            <!-- <p class="hjustify pstyle"> -->
+              <!-- <p class="font-weight-bold">Insights: </p> -->
 
               
               <ul class="hjustify pstyle">
+                <b>Insights:</b>
                 <li>
-                  A map of the US showing the locations of all the reported mass shooting events between 1990 to 2016. <br><br>
+                  Mass shootings where the shooter is African Americans are scattered more towards the East and South of the country. 
                 </li>
                 <li>
-                  Map of all the shooting events across the US, with size of circle representing total fatalities and color representing the shooter's race.<br><br>
+                  There have been some US States where no mass shoooting was reported between 1990-2016. 
                 </li>
                 <li>
-                  A scatter plot showing the role different gun types played in mass shooting.<br><br>
+                  The age groups 33-42 and 21-32 are the two dominant age groups of the shooter. However, additional data on the US age distribution is needed before concluding whether people of the age group have higher risk of causing mass shooting. <br> Moreover, the age group with the highest number of reported mass shootings are slightly different across races.  <br>
+                   <b>Lead 1: </b> 
+                   <p class="font-italic">This could be reflecting the difference in the level of economic burden and responsibility that different cultures impose to people of different age groups. A correlation between the culture and likelihood of mass shooting is proposed, and potential social intervention can be applied to reduce the likelihood of mass shooting.</p>
                 </li>
                 <li>
-                  A barchart showing the age distribution. <br><br>
+                  Wednesday is the day with the highest number of reported mass shootings, while Saturday with the least. 
                 </li>
                 <li>
-                  A bar chart showing the frequency of events during each day of a week. <br><br>
-                </li>
-              </ul>
-            </p>
-
-            <br>
-            <br>
-
-          <p class="hjustify pstyle">
-            <b>Insights:</b> <br>
-
-              
-              <ul class="hjustify pstyle">
-                <li>
-                  Mass shootings where the shooter is African Americans are scattered more towards the East and South of the country. <br><br>
-                </li>
-                <li>
-                  There have been some US States where no mass shoooting was reported between 1990-2016. <br><br>
-                </li>
-                <li>
-                  The age groups 33-42 and 21-32 are the two dominant age groups of the shooter. However, additional data on the US age distribution is needed before concluding whether people of the age group have higher risk of causing mass shooting. <br> Moreover, the age group with the highest number of reported mass shootings are slightly different across races.  <br><br> <p class="font-weight-bold font-italic">Lead 1: </p> <p class="font-italic">This could be reflecting the difference in the level of economic burden and responsibility that different cultures impose to people of different age groups. A correlation between the culture and likelihood of mass shooting is proposed, and potential social intervention can be applied to reduce the likelihood of mass shooting.<br><br></p>
-                </li>
-                <li>
-                  Wednesday is the day with the highest number of reported mass shootings, while Saturday with the least. <br><br>
-                </li>
-                <li>
-                  A bar chart showing the frequency of events during each day of a week. <br><br>
+                  A bar chart showing the frequency of events during each day of a week. 
                 </li>
               </ul>
-            </p>
+            <!-- </p> -->
+          
+
+            
                               
         <br>
         <br>
@@ -253,7 +323,7 @@
 <br>
 
 
-      <header class="bg-secondary text-white text-center" id="firearms">
+      <header class="bg-white text-dark text-center" id="firearms">
         <br>
         <br>
         <br>
