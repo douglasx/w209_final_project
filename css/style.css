@@ -95,3 +95,7 @@ label {
 .navbar-nav {
     color: white;
 }
+
+ul{
+  margin-left:0px;
+}
